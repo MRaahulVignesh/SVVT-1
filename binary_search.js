@@ -4,7 +4,7 @@ function binarySearch(sortedArray, key){
     let result = -1;
     let middle = 0
     while (start <= end) {
-        middle = Math.floor((start + end) / 2);
+        let middle = Math.floor((start + end) / 2);
 
         if (sortedArray[middle] === key) {
             // found the key

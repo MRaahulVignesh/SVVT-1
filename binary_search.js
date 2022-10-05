@@ -1,7 +1,7 @@
 function binarySearch(sortedArray, key){
     let start = 0;
     let end = sortedArray.length - 1;
-
+    let result = -1;
     while (start <= end) {
         let middle = Math.floor((start + end) / 2);
 
